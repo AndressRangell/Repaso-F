@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flota</string>
+    <string name="cancel">取消</string>
+    <string name="confirm">确认</string>
+
+    <string name="is_revocation">已撤销</string>
+    <string name="re_print">重打印</string>
+    <string name="not_any_record">暂无交易明细</string>
+    <string name="pay_code">付款码</string>
+    <string name="card_num">卡号</string>
+    <string name="auth_code">Numero de boleta:</string>
+    <string name="voucher_num">Cargo:</string>
+    <string name="amount">金额</string>
+    <string name="batch_num">批次号</string>
+    <string name="trans_date">交易时间</string>
+    <string name="trans_type">交易类型</string>
+    <string name="find_result">查询结果</string>
+    <string name="void_original_trans">原交易:</string>
+    <string name="void_card_no">卡号:</string>
+    <string name="void_trace_no">流水号:</string>
+    <string name="void_auth_code">授权码:</string>
+    <string name="void_batch_no">批次号:</string>
+    <string name="void_amount">金额:</string>
+    <string name="void_time">交易时间:</string>
+    <item name="tag_item_user" type="id" />
+    <item name="tag_item_history_trans" type="id" />
+</resources>

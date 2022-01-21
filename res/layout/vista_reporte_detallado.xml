@@ -1,0 +1,441 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white"
+    android:orientation="vertical">
+
+      <android.support.design.widget.AppBarLayout
+        android:id="@+id/appBar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+
+        <include layout="@layout/toolbar_bancard" />
+    </android.support.design.widget.AppBarLayout>
+
+    <include
+        android:layout_below="@+id/appBar"
+        android:id="@+id/includeSubHeader"
+        android:layout_height="wrap_content"
+        android:layout_width="match_parent"
+        layout="@layout/subheader"/>
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:orientation="vertical">
+
+        <View
+            android:id="@+id/view1"
+            android:layout_width="match_parent"
+            android:layout_height="1dp"
+            android:layout_marginStart="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginEnd="20dp"
+            android:background="@color/colorbuttonnumber" />
+
+        <RelativeLayout
+            android:layout_marginStart="20dp"
+            android:layout_marginEnd="20dp"
+            android:layout_marginTop="5dp"
+            android:layout_marginBottom="@dimen/dp_10"
+            android:layout_width="match_parent"
+            android:layout_below="@id/view1"
+            android:layout_height="wrap_content">
+
+            <ImageView
+                android:id="@+id/logotipo"
+                android:layout_width="match_parent"
+                android:layout_height="25dp"
+
+                android:layout_marginTop="5dp"
+                android:foregroundGravity="center"
+                android:src="@drawable/logoinfonet02" />
+
+
+            <TextView
+                android:id="@+id/tvNombreComercio"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/logotipo"
+                android:layout_marginTop="2dp"
+                android:gravity="center"
+                android:text="BANCARD TESTING"
+                android:textAlignment="center"
+                android:textColor="@color/colorAzul174B"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDireccion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvNombreComercio"
+                android:layout_marginTop="1dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="Brasailia 7025"
+                android:textAlignment="center"
+                android:textColor="@color/colorAzul174B"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvReporteDetallado"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDireccion"
+                android:layout_marginTop="1dp"
+                android:fontFamily="monospace"
+                android:gravity="center"
+                android:text="REPORTE DETALLADO"
+                android:textAlignment="center"
+                android:textColor="@color/colorAzul174B"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <LinearLayout
+                android:id="@+id/SubLinear"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvReporteDetallado"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/lineFecha"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="left"
+                        android:text="Fecha"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvFecha"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="left"
+                        android:text="Fecha"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/lineHora"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:text="Hora"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvHora"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:text="Hora"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/lineTerminal"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="right"
+                        android:text="Terminal"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                    <TextView
+                        android:id="@+id/tvTerminal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="right"
+                        android:text="Terminal"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <TextView
+                android:id="@+id/TvNroLote"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/SubLinear"
+                android:layout_marginTop="4dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:text="Nro de lote:"
+                android:textColor="@color/colorAzul174B"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+            <TextView
+                android:id="@+id/tvDesde"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/TvNroLote"
+                android:layout_marginTop="3dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:text="Desde: "
+                android:textColor="@color/colorAzul174B"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <TextView
+                android:id="@+id/txHasta"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/tvDesde"
+                android:layout_marginTop="3dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:text="Hasta: "
+                android:textColor="@color/colorAzul174B"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+
+            <LinearLayout
+                android:id="@+id/SuLinearFinal"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/txHasta"
+                android:layout_marginTop="@dimen/dp_10"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:id="@+id/LinearRef"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="left"
+                        android:text="REF"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:id="@+id/LinearNumeroTarjeta"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvMensajeHora"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="center"
+                        android:text="NRO TARJETA"
+                        android:textAlignment="center"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+
+                <LinearLayout
+                    android:id="@+id/LinearMonto"
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:layout_weight="1"
+                    android:orientation="vertical">
+
+                    <TextView
+                        android:id="@+id/tvMensajeTerminal"
+                        android:layout_width="match_parent"
+                        android:layout_height="wrap_content"
+                        android:layout_below="@id/tvDireccion"
+                        android:layout_marginTop="1dp"
+                        android:fontFamily="monospace"
+                        android:gravity="right"
+                        android:text="MONTO TIPO"
+                        android:textColor="@color/colorAzul174B"
+                        android:textSize="14sp"
+                        android:textStyle="bold" />
+
+
+                </LinearLayout>
+
+            </LinearLayout>
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/listadoTransacciones"
+                android:layout_width="match_parent"
+                android:layout_height="80dp"
+                android:layout_below="@id/SuLinearFinal" />
+
+            <View
+                android:id="@+id/view2"
+                android:layout_width="match_parent"
+                android:layout_height="1dp"
+                android:layout_below="@id/listadoTransacciones"
+                android:layout_marginStart="20dp"
+                android:layout_marginTop="10dp"
+                android:layout_marginEnd="20dp"
+                android:background="@color/colorbuttonnumber" />
+
+            <TextView
+                android:id="@+id/tvCantidad"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_below="@id/view2"
+                android:layout_marginTop="5dp"
+                android:fontFamily="monospace"
+                android:gravity="left"
+                android:text="CANTIDAD DE TRANSACCIONES:"
+                android:textColor="@color/colorAzul174B"
+                android:textSize="14sp"
+                android:textStyle="bold" />
+
+        </RelativeLayout>
+
+
+        <android.support.design.widget.FloatingActionButton
+            android:id="@+id/buttonF"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="20dp"
+            android:background="@color/colorAzul174B"
+            android:src="@drawable/ic_close_white"
+            android:text="SALIR o CANCELAR"
+            android:textColor="@color/white"
+            android:visibility="gone" />
+
+
+        <LinearLayout
+            android:id="@+id/linearOpciones"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_alignParentBottom="true"
+            android:orientation="vertical"
+            android:visibility="visible">
+
+            <TextView
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:layout_marginTop="10dp"
+                android:fontFamily="@font/roboto"
+                android:gravity="center"
+                android:paddingStart="25dp"
+                android:paddingEnd="25dp"
+                android:text="¿Desea imprimir recibo?"
+                android:textColor="@color/colorAzul174B"
+                android:textSize="18sp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="88dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginBottom="20dp"
+                android:gravity="center"
+                android:orientation="horizontal">
+
+                <Button
+                    android:id="@+id/btnImprimir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="85dp"
+                    android:background="@android:color/transparent"
+                    android:drawableBottom="@drawable/ic_arbol_imprimir"
+                    android:text="Imprimir"
+                    android:textAllCaps="false"
+                    android:textColor="#ADACAB"
+                    android:textSize="20sp" />
+
+                <Button
+                    android:id="@+id/btnNoImprmir"
+                    android:layout_width="wrap_content"
+                    android:layout_height="85dp"
+                    android:layout_marginStart="50dp"
+                    android:background="@android:color/transparent"
+                    android:drawableBottom="@drawable/ic_arbol_no_imprimir"
+                    android:text="No imprimir"
+                    android:textAllCaps="false"
+                    android:textColor="#179503"
+                    android:textSize="20sp" />
+
+            </LinearLayout>
+
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</LinearLayout>

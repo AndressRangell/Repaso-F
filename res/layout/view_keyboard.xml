@@ -1,0 +1,166 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/keyboard_linear"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:background="#003366"
+    android:padding="6dp">
+
+    <android.support.v7.widget.GridLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_marginBottom="0dp"
+        app:columnCount="4"
+        app:orientation="horizontal"
+        app:rowCount="4">
+
+        <Button
+            android:id="@+id/number_1_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_1"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_2_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_2"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_3_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_3"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_4_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_4"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_5_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_5"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_6_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_6"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_7_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_7"
+            app:layout_column="0"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_8_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_8"
+            app:layout_column="1"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_9_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_9"
+            app:layout_column="2"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowWeight="1" />
+
+        <ImageButton
+            android:id="@+id/number_delete_keyboard"
+            android:layout_width="@dimen/buttonx"
+            android:layout_height="@dimen/buttony"
+            android:layout_margin="@dimen/buttonMargin"
+            android:background="@drawable/btn_blue_stroke"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:src="@drawable/borrar_caracter"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="0"
+            app:layout_rowWeight="1" />
+
+        <ImageButton
+            android:id="@+id/clear_keyboard"
+            android:layout_width="@dimen/buttonx"
+            android:layout_height="@dimen/buttony"
+            android:layout_margin="@dimen/buttonMargin"
+            android:background="@drawable/btn_blue_stroke"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:src="@drawable/ic_close_red"
+            android:textColor="@android:color/white"
+            android:textSize="24sp"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="1"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_0_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_0"
+            app:layout_column="0"
+            app:layout_columnSpan="2"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+        <Button
+            android:id="@+id/number_000_keyboard"
+            style="@style/Keyboard"
+            android:text="@string/keyboard_number_000"
+            app:layout_column="2"
+            app:layout_columnSpan="1"
+            app:layout_columnWeight="1"
+            app:layout_row="3"
+            app:layout_rowWeight="1" />
+
+        <ImageButton
+            android:id="@+id/ok_keyboard"
+            android:layout_width="@dimen/buttonx"
+            android:layout_height="@dimen/buttony"
+            android:layout_margin="@dimen/buttonMargin"
+            android:background="@drawable/btn_blue_stroke"
+            android:contentDescription="@null"
+            android:gravity="center"
+            android:src="@drawable/ic_enter"
+            android:textAlignment="center"
+            app:layout_column="3"
+            app:layout_columnWeight="1"
+            app:layout_row="2"
+            app:layout_rowSpan="2"
+            app:layout_rowWeight="1" />
+    </android.support.v7.widget.GridLayout>
+</RelativeLayout>

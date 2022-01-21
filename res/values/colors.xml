@@ -1,0 +1,31 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+
+    <color name="colorPrimary">#0E3E8A</color><!--C2A614 -->
+    <color name="colorPrimary50">#800E3E8A</color><!--C2A614 -->
+    <color name="colorPrimary80">#CC0E3E8A</color><!--C2A614 -->
+    <color name="colorPrimaryDark">#092B60</color>
+    <color name="colorAccent">#3E64A1</color>
+    <color name="colorbuttonnumber">#164F96</color>
+    <color name="colorAzul174B">#174B94</color>
+
+    <color name="white">#FFFFFF</color><!--白色 -->
+    <color name="red">#E64C3C</color><!--红色 -->
+    <color name="red80">#CCE64C3C</color><!--红色 -->
+    <color name="gray">#767c9b</color><!--灰色 -->
+    <color name="darker_gray">#aaaaaa</color><!--深灰色 -->
+    <color name="black">#000000</color><!--黑色 -->
+    <color name="yellowDark">#FFCC00</color>
+    <color name="bg">#F0F0F0</color>
+    <color name="white_text_color">#F0F0F0</color>
+    <color name="gray_color">#4b4b58</color>
+    <color name="Background_Editext">#64CCCCCC</color>
+
+    <color name="color_green">#179503</color>
+    <color name="grey_90">#263238</color>
+    <color name="grey_60">#666666</color>
+
+    <!-- UI -->
+    <color name="separator_color">#164F96</color>
+    <color name="menu_button_tint">#153D89</color>
+</resources>

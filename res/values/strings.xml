@@ -1,0 +1,109 @@
+<resources>
+    <string name="app_name">Flota</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Aceptar</string>
+
+    <string name="is_revocation">Anulada</string>
+    <string name="re_print">REIMPRESIÓN</string>
+    <string name="not_any_record">La referencia indicada no pertenece a este comercio</string>
+    <string name="pay_code">PayCode:</string>
+    <string name="card_num">Tarjeta:</string>
+    <string name="auth_code">Número de boleta:</string>
+    <string name="voucher_num">Cargo:</string>
+    <string name="amount">Monto:</string>
+    <string name="batch_num">Lote:</string>
+    <string name="trans_date">Fecha y Hora:</string>
+    <string name="trans_type">Transacción:</string>
+    <string name="find_result">¿ ANULAR TRANSACCIÓN ?</string>
+    <string name="void_original_trans">Transacción:</string>
+    <string name="void_card_no">Tarjeta:</string>
+    <string name="void_trace_no">Referencia:</string>
+    <string name="void_auth_code">Código Autorización:</string>
+    <string name="void_batch_no">Lote:</string>
+    <string name="void_amount">Monto:</string>
+    <string name="void_time">Fecha y Hora:</string>
+    <item name="tag_item_user" type="id" />
+    <item name="tag_item_history_trans" type="id" />
+
+    <string name="title_mk" translatable="false">INYECCIÓN MASTER KEY</string>
+    <string name="label_mk" translatable="false">INSERTE LA TARJETA</string>
+    <string name="hint_pw_mk" translatable="false">Clave MasterKey</string>
+    <string name="err_msg_pwmk" translatable="false">Debe ingresar una clave.</string>
+
+    <string name="moneda_bs" translatable="false">AHORROS</string>
+    <string name="moneda_usd" translatable="false">CORRIENTE</string>
+
+    <string name="label_init_stis" translatable="false">INICIALIZANDO</string>
+    <string name="label_init_process" translatable="false">PROCESANDO INICIALIZACIÓN</string>
+
+    <string name="title_operario" translatable="false">MENÚ OPERARIO</string>
+    <string name="hint_pw_operario" translatable="false">Contraseña:</string>
+    <string name="err_msg_pwoperario" translatable="false">CÓDIGO DE ACCESO NO COINCIDE</string>
+
+    <string name="dialog_title_listapp" translatable="false">SELECCIONE APLICACIÓN</string>
+
+    <string name="firme_su_voucher" translatable="false">Firme su Voucher</string>
+    <string name="cedula" translatable="false">CEDULA:</string>
+    <string name="telefono" translatable="false">TELÉFONO:</string>
+    <string name="clear_pad" translatable="false">Limpiar firma</string>
+    <string name="save_signature" translatable="false">Confirmar Firma</string>
+
+    <string name="select" translatable="false">Seleccione</string>
+    <string name="printing" translatable="false">IMPRIMIENDO..</string>
+
+    <string name="ingrese_dato" translatable="false">Ingrese Datos</string>
+    <string name="longitud_invalida" translatable="false">Longitud mínima invalida</string>
+
+    <string name="pref_key" translatable="false">APPINFO</string>
+
+    <string name="mensaje_seguridad" translatable="false">AGENTE DETENIDO O FUERA DE SERVICIO. CONTACTE CON SOPORTE TÉCNICO DE RED INFONET</string>
+
+    <string name="timeout" translatable="false">Tiempo de espera de ingreso de datos agotado</string>
+    <string name="waiting_time_over" translatable="false">Tiempo de espera de ingreso de datos agotado</string>
+    <string name="cancel_" translatable="false">CANCELAR</string>
+    <string name="gs" translatable="false">" - Gs. "</string>
+    <string name="br" translatable="false"><![CDATA[<br/>]]></string>
+    <string name="b" translatable="false"><![CDATA[<b>]]></string>
+    <string name="unexpected_value" translatable="false">Valor inesperado</string>
+    <string name="application_table" translatable="false">Tabla Aplicaciones</string>
+
+    <string name="bancard" translatable="false">Bancard</string>
+
+    <!-- Main -->
+    <string name="initialize" translatable="false">Inicialice</string>
+    <!-- Configuration -->
+    <string name="config_title" translatable="false">ADMINISTRATIVAS</string>
+    <string name="validate_hex_msg_1" translatable="false">No es un componente hexadecimal</string>
+    <string name="validate_msg_length_32" translatable="false">Longitud invalida</string>
+    <string name="config_commerce_title" translatable="false">Configuración comercio</string>
+    <string name="config_technical_title" translatable="false">Configuración técnico</string>
+    <!-- Network Configuration -->
+    <string name="network_con_title" translatable="false">Selecione la conexión a modificar</string>
+    <!-- Connection to transactional IP address -->
+    <string name="con_trans_ip_msg_1" translatable="false">Ingresa la IP o URL del host</string>
+    <string name="con_trans_ip_msg_2" translatable="false">Ingresa el puerto de conexión</string>
+    <string name="con_trans_ip_msg_3" translatable="false">Usar TLS</string>
+    <string name="con_trans_ip_hint_1" translatable="false">host.bancard.com</string>
+    <string name="con_trans_ip_hint_2" translatable="false">7020</string>
+    <string name="con_trans_ip_off" translatable="false">No</string>
+    <string name="con_trans_ip_on" translatable="false">Si</string>
+    <string name="con_trans_ip_save" translatable="false">Guardar</string>
+    <!-- Keyboard -->
+    <string name="keyboard_number_7" translatable="false">7</string>
+    <string name="keyboard_number_8" translatable="false">8</string>
+    <string name="keyboard_number_9" translatable="false">9</string>
+    <string name="keyboard_number_4" translatable="false">4</string>
+    <string name="keyboard_number_5" translatable="false">5</string>
+    <string name="keyboard_number_6" translatable="false">6</string>
+    <string name="keyboard_number_1" translatable="false">1</string>
+    <string name="keyboard_number_2" translatable="false">2</string>
+    <string name="keyboard_number_3" translatable="false">3</string>
+    <string name="keyboard_number_0" translatable="false">0</string>
+    <string name="keyboard_number_000" translatable="false">000</string>
+    <string name="ok_keyboard" translatable="false">ok</string>
+    <string name="reprint" translatable="false">Reimprimir</string>
+    <string name="not_reprint" translatable="false">No reimprimir</string>
+    <string name="more_quantity" translatable="false">+</string>
+    <string name="consulta_saldo">CONSULTA SALDO</string>
+    <string name="saldo_disponible">Saldo disponible</string>
+</resources>

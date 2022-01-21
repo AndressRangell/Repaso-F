@@ -1,0 +1,91 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical" >
+
+    <LinearLayout 
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/root"
+        android:orientation="vertical"
+        android:layout_marginLeft="20dp"
+        android:layout_marginRight="20dp"
+        android:layout_marginTop="20dp">
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:textColor="@color/black"
+            android:text="CIERRE DE LOTE NUMERO: 2"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content" />
+        <TextView
+            android:id="@+id/tvTipoCierre"
+            android:textColor="@color/black"
+            android:text="MODO CIERRE: MANUAL"
+            android:visibility="visible"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/tvFechaAnterior"
+            android:textColor="@color/black"
+            android:text="ENTRE: XX/XX/XXXX XX:XX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/tvFechaCierre"
+            android:textColor="@color/black"
+            android:text="HASTA: XX/XX/XXXX XX:XX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/tvTituloGeneral"
+            android:textColor="@color/black"
+            android:text="TOTAL GENERAL"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+        <TextView
+            android:id="@+id/tvGeneral"
+            android:textColor="@color/black"
+            android:text="CANT: 0001 - MONTO: Gs. XXX.XXX"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp" />
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="horizontal"
+            android:gravity="center"
+            android:layout_gravity="center"
+            >
+            <Button
+                android:id="@+id/re_print"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_white_shape"
+                android:text="GENERAL"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_10"/>
+            <Button
+                android:id="@+id/detallado"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/edit_white_shape"
+                android:text="DETALLADO"
+                android:layout_gravity="center"
+                android:layout_width="150dp"
+                android:layout_height="wrap_content"
+                android:layout_marginHorizontal="@dimen/dp_10"/>
+        </LinearLayout>
+    </LinearLayout>
+
+    <View
+        android:id="@+id/view_v"
+        android:layout_below="@+id/root"
+        android:layout_width="fill_parent"
+        android:layout_height="0.5dp"
+        android:background="@color/colorPrimary" />
+</RelativeLayout>

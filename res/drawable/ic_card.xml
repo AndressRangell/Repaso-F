@@ -1,0 +1,10 @@
+<vector xmlns:android="http://schemas.android.com/apk/res/android"
+    android:width="38dp"
+    android:height="28dp"
+    android:viewportWidth="38"
+    android:viewportHeight="28">
+    <path
+        android:fillColor="@color/menu_button_tint"
+        android:fillType="evenOdd"
+        android:pathData="M6,0C2.6863,0 0,2.6863 0,6C0,6.5523 0.4477,7 1,7H37C37.5523,7 38,6.5523 38,6C38,2.6863 35.3137,0 32,0H6ZM0,11.5C0,10.9477 0.4477,10.5 1,10.5H37C37.5523,10.5 38,10.9477 38,11.5V22C38,25.3137 35.3137,28 32,28H6C2.6863,28 0,25.3137 0,22V11.5ZM5.542,15.8746C5.542,15.3224 5.9897,14.8746 6.542,14.8746H10.0837C10.6359,14.8746 11.0837,15.3224 11.0837,15.8746V17.3746C11.0837,17.9269 10.6359,18.3746 10.0837,18.3746H6.542C5.9897,18.3746 5.542,17.9269 5.542,17.3746V15.8746Z" />
+</vector>

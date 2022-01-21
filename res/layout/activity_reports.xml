@@ -1,0 +1,43 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@android:color/white">
+
+    <!-- Toolbar -->
+    <include layout="@layout/toolbar_bancard" />
+
+    <!-- Content Top -->
+    <LinearLayout
+        android:id="@+id/content_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarBancard"
+        android:gravity="center|top"
+        android:orientation="vertical">
+
+        <include layout="@layout/subheader" />
+
+        <TextView
+            android:id="@+id/title_reports"
+            android:layout_width="match_parent"
+            android:layout_height="23dp"
+            android:layout_marginTop="@dimen/spacing_middle"
+            android:background="@color/colorAzul174B"
+            android:gravity="center"
+            android:text="Reportes"
+            android:textColor="@color/white"
+            tools:ignore="HardcodedText" />
+    </LinearLayout>
+
+    <!-- Content -->
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_buttons_reports"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@+id/content_top"
+        android:layout_marginHorizontal="10dp"
+        android:layout_marginTop="10dp"
+        tools:listitem="@layout/item_button" />
+</RelativeLayout>

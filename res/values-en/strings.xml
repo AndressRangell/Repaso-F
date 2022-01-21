@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string name="app_name">Flota</string>
+    <string name="cancel">Cancelar</string>
+    <string name="confirm">Aceptar</string>
+
+    <string name="is_revocation">Anulada</string>
+    <string name="re_print">REIMPRESIÓN</string>
+    <string name="not_any_record">La referencia indicada no pertenece a este comercio</string>
+    <string name="pay_code">PayCode:</string>
+    <string name="card_num">Tarjeta:</string>
+    <string name="auth_code">Número de boleta:</string>
+    <string name="voucher_num">Cargo:</string>
+    <string name="amount">Monto:</string>
+    <string name="batch_num">Lote:</string>
+    <string name="trans_date">Fecha y Hora:</string>
+    <string name="trans_type">Transacción:</string>
+    <string name="find_result">¿ ANULAR TRANSACCIÓN ?</string>
+    <string name="void_original_trans">Transacción:</string>
+    <string name="void_card_no">Tarjeta:</string>
+    <string name="void_trace_no">Referencia:</string>
+    <string name="void_auth_code">Código Autorización:</string>
+    <string name="void_batch_no">Lote:</string>
+    <string name="void_amount">Monto:</string>
+    <string name="void_time">Fecha y Hora:</string>
+    <item name="tag_item_user" type="id" />
+    <item name="tag_item_history_trans" type="id" />
+
+    <string name="title_mk">INYECCIÓN MASTER KEY</string>
+    <string name="label_mk">INSERTE LA TARJETA</string>
+    <string name="hint_pw_mk">Clave MasterKey</string>
+    <string name="err_msg_pwmk">Debe ingresar una clave.</string>
+
+    <string name="moneda_bs">AHORROS</string>
+    <string name="moneda_usd">CORRIENTE</string>
+
+    <string name="label_init_stis">INICIALIZANDO</string>
+    <string name="label_init_process">PROCESANDO INICIALIZACIÓN</string>
+
+    <string name="title_operario">MENÚ OPERARIO</string>
+    <string name="hint_pw_operario">Contraseña:</string>
+    <string name="err_msg_pwoperario">CÓDIGO DE ACCESO NO COINCIDE</string>
+
+    <string name="dialog_title_listapp">SELECCIONE APLICACIÓN</string>
+
+    <string name="firme_su_voucher">Firme su Voucher</string>
+    <string name="cedula">CÉDULA:</string>
+    <string name="telefono">TELÉFONO:</string>
+    <string name="clear_pad">Limpiar firma</string>
+    <string name="save_signature">Confirmar Firma</string>
+
+    <string name="select">Seleccione</string>
+    <string name="printing">IMPRIMIENDO..</string>
+
+    <string name="ingrese_dato">Ingrese Datos</string>
+    <string name="longitud_invalida">Longitud mínima invalida</string>
+
+    <string name="pref_key">APPINFO</string>
+
+</resources>

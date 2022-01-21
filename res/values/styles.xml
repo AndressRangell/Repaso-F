@@ -1,0 +1,168 @@
+<resources>
+    <!-- Base application theme. -->
+    <style name="AppTheme" parent="Theme.AppCompat.Light.NoActionBar">
+        <!-- Customize your theme here. -->
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="android:splitMotionEvents">false</item>
+        <item name="android:launchMode">singleTask</item>
+        <!-- <item name="android:windowBackground">@drawable/init</item> -->
+        <!--<item name="android:windowFullscreen">true</item>-->
+    </style>
+
+    <style name="AppTheme.click" parent="Theme.AppCompat.Light">
+        <item name="colorPrimary">@color/colorPrimary</item>
+        <item name="colorPrimaryDark">@color/colorPrimaryDark</item>
+        <item name="colorAccent">@color/colorAccent</item>
+        <item name="colorControlHighlight">@color/colorAccent</item>
+    </style>
+
+    <style name="AppTheme.WUZI">
+        <item name="windowActionBar">false</item>
+        <item name="windowNoTitle">true</item>
+        <item name="android:windowBackground">@android:color/transparent</item>
+    </style>
+
+    <style name="AppTheme.PopupOverlay" parent="ThemeOverlay.AppCompat.Light" />
+
+    <style name="Listview_Nodiv">
+        <item name="android:layout_width">fill_parent</item>
+        <item name="android:layout_height">fill_parent</item>
+        <item name="android:divider">@null</item>
+        <item name="android:dividerHeight">0dp</item>
+        <item name="android:listSelector">@android:color/transparent</item>
+        <item name="android:cacheColorHint">@null</item>
+    </style>
+
+    <style name="Translucent_Dialog">
+        <item name="android:windowBackground">@android:color/transparent</item>
+        <item name="android:windowNoTitle">true</item>
+        <item name="android:windowIsTranslucent">true</item>
+        <item name="android:windowContentOverlay">@null</item>
+        <item name="android:colorBackgroundCacheHint">@null</item>
+    </style>
+
+    <style name="SplashTheme" parent="AppTheme">
+        <item name="android:windowBackground">@drawable/splash</item>
+    </style>
+
+    <style name="SwitchTextAppearance" parent="@android:style/TextAppearance.Holo.Small">
+        <item name="android:textColor">@color/white_text_color</item>
+    </style>
+
+    <style name="Mypd" parent="@android:style/Theme.Dialog">
+        <item name="android:alertDialogStyle">@style/CustomDialogStyle</item>
+        <item name="android:textColorPrimary">@color/white</item>
+    </style>
+
+    <style name="CustomDialogStyle">
+        <item name="android:bottomBright">@color/colorPrimaryDark</item>
+        <item name="android:bottomDark">@color/colorPrimaryDark</item>
+        <item name="android:bottomMedium">@color/colorPrimaryDark</item>
+        <item name="android:centerBright">@color/colorPrimaryDark</item>
+        <item name="android:centerDark">@color/colorPrimaryDark</item>
+        <item name="android:centerMedium">@color/colorPrimaryDark</item>
+        <item name="android:fullBright">@color/colorPrimaryDark</item>
+        <item name="android:fullDark">@color/colorPrimaryDark</item>
+        <item name="android:topBright">@color/colorPrimaryDark</item>
+        <item name="android:topDark">@color/colorPrimaryDark</item>
+    </style>
+
+    <!-- General components -->
+    <style name="Separator">
+        <item name="android:layout_width">match_parent</item>
+        <item name="android:layout_height">1dp</item>
+        <item name="android:layout_marginStart">20dp</item>
+        <item name="android:layout_marginEnd">20dp</item>
+        <item name="android:layout_marginTop">10dp</item>
+        <item name="android:layout_marginBottom">10dp</item>
+        <item name="android:background">@color/separator_color</item>
+    </style>
+
+    <style name="Separator.Top" parent="Separator">
+        <item name="android:layout_marginTop">20dp</item>
+        <item name="android:layout_marginBottom">0dp</item>
+    </style>
+
+    <style name="Separator.Bot" parent="Separator">
+        <item name="android:layout_marginTop">7.5dp</item>
+    </style>
+
+    <style name="Separator.Bold" parent="Separator">
+        <item name="android:layout_height">5dp</item>
+        <item name="android:background">@color/colorAzul174B</item>
+    </style>
+
+    <!-- Main -->
+    <style name="NameCommerce">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:background">@color/white</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@color/colorAzul174B</item>
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Options">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:onClick">onClick</item>
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+
+    <style name="MsgView">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">wrap_content</item>
+        <item name="android:textColor">@color/menu_button_tint</item>
+        <item name="android:textSize">15sp</item>
+    </style>
+
+    <style name="MsgView.Bold" parent="MsgView">
+        <item name="android:textStyle">bold</item>
+    </style>
+
+    <style name="Keyboard">
+        <item name="android:layout_width">@dimen/buttonx</item>
+        <item name="android:layout_height">@dimen/buttony</item>
+        <item name="android:layout_margin">@dimen/buttonMargin</item>
+        <item name="android:background">@drawable/btn_blue_stroke_blue</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Keyboard2">
+        <item name="android:layout_width">@dimen/buttonx</item>
+        <item name="android:layout_height">@dimen/buttony</item>
+        <item name="android:layout_margin">@dimen/buttonMargin</item>
+        <item name="android:background">@drawable/bg_keyboard</item>
+        <item name="android:gravity">center</item>
+        <item name="android:textColor">@android:color/white</item>
+        <item name="android:textSize">24sp</item>
+    </style>
+
+    <style name="Keyboard2.StartTop" parent="Keyboard2">
+        <item name="android:background">@drawable/bg_keyboard_start_top</item>
+    </style>
+
+    <style name="Keyboard2.EndTop" parent="Keyboard2">
+        <item name="android:background">@drawable/bg_keyboard_end_top</item>
+    </style>
+
+    <style name="ScreenResultButton">
+        <item name="android:layout_width">wrap_content</item>
+        <item name="android:layout_height">85dp</item>
+        <item name="android:background">@android:color/transparent</item>
+        <item name="android:textAllCaps">false</item>
+        <item name="android:textSize">20sp</item>
+        <item name="android:layout_marginStart">15dp</item>
+        <item name="android:layout_marginEnd">15dp</item>
+    </style>
+
+    <style name="Optionsa24" parent="Options">
+        <item name="android:clickable">true</item>
+        <item name="android:focusable">true</item>
+    </style>
+</resources>

@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white">
+
+    <!-- Toolbar -->
+    <include layout="@layout/toolbar_bancard" />
+
+    <!-- Content Top -->
+    <LinearLayout
+        android:id="@+id/content_top"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:layout_below="@+id/toolbarBancard"
+        android:gravity="center"
+        android:orientation="vertical">
+
+        <include layout="@layout/subheader" />
+
+        <TextView
+            android:id="@+id/tvTitulo"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="10dp"
+            android:gravity="center"
+            android:text="@string/config_title"
+            android:textColor="@color/colorAzul174B" />
+
+        <View style="@style/Separator.Bold" />
+    </LinearLayout>
+
+    <android.support.v7.widget.RecyclerView
+        android:id="@+id/recycler_buttons_config"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_below="@id/content_top"
+        android:layout_marginHorizontal="10dp"
+        tools:listitem="@layout/item_button" />
+</RelativeLayout>
